@@ -22,7 +22,7 @@ import utils.DateUtils
 object AirlinesApp extends App {
   // Load files with airline delay and cancellation data from 2009 to 2018
 
-  val folderFiles = "/home/josels/devel-scala/examples/DATA_SPARK/FILES/"
+  val folderFiles = "/examples/DATA_SPARK/FILES/"
   val colunmsNamesAirlinesDelay =
     List(
       "FL_DATE as flightDate",
